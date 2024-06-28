@@ -1,0 +1,231 @@
+body {
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    
+    
+}
+
+.header h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    margin-bottom: 40px;
+}
+
+.original_title {
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.summary_title {
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.srt {
+    display: flex;
+    flex-direction: row;
+}
+
+.originalTxt {
+    background-color: royalblue;
+    padding: 20px;
+    margin-left: 100px; 
+}
+
+.summaryTxt {
+    background-color: rgb(76, 61, 143);
+    padding: 20px;
+    margin-left: 220px; 
+}
+
+.heading {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.lead {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.submitbtn {
+    margin-top: 50px;
+}
+.navbar {
+    width: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    background-color: #002546;
+    border-radius: 30px;
+}
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 150%;
+    height: 200px;
+    /* border-radius: 20px; */
+}
+
+.language-buttons {
+    display: flex;
+}
+
+.language-buttons button {
+    margin-right: 10px; 
+}
+
+.language-buttons button.active {
+    background-color: #0056b3; 
+}
+.btnsubmit{
+    width: 100%;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 30px;
+
+}
+.text-white{
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+}
+.form-container {
+    margin: auto;
+    display: flex;
+}
+
+.input-container {
+    flex: 5;
+    padding-right: 20px;
+}
+
+.output-container {
+    flex: 5;
+    margin-left: 150px;
+}
+#displayText{
+    text-align: justify;
+    width: 200%;
+    
+}
+.info{
+
+}
+.info p{
+    text-align: justify;
+    color: rgb(224, 238, 255);
+    width: 80%;
+   font-size: larger;
+   margin: auto;
+   font-weight: bold;
+}
+.info h2{
+    text-decoration:underline;
+    text-align: center;
+    color: rgb(56, 155, 255);
+    font-weight: 900 !important;
+    font-size: 30px;
+}
+.container1 {
+    max-width: 850px;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+.srt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.originalTxt, .summaryTxt {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+    color: white;
+}
+.summaryTxt {
+    margin-left: 20px;
+}
+.btn {
+    background-color: greenyellow;
+    width: 20%;
+    height: 40px;
+    margin-left: 72%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.rouge-score {
+    color: red;
+    margin-top: 10px;
+}
+
+.info h4{
+color: white;
+font-size: 30px;
+font-weight: bolder;
+}
+.home-icon {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 34px;
+    color: rgb(147, 143, 143);
+    text-decoration: none;
+}

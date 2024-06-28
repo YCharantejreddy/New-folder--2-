@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+    <a href="/" class="home-icon"><i class="fa fa-home"></i></a>
+    <div class="header">
+        <h1>SUMMARY</h1>
+    </div>
+    <div class="info">
+        <div class="container1">
+            {% if summary %}
+            <div class="container srt">
+                <div class="orginalbox">
+                    <h4>Original Text :</h4>
+                    <p class="originalTxt">{{ original_txt }}</p>
+                    <button class="btn btn-danger" type="submit" value="">Words: {{ len_orig_txt }}</button>
+                </div>
+            </div>
+            <div class="summarybox">
+                <h4>Summary :</h4>
+                <p class="summaryTxt">{{ summary }}</p>
+                <button class="btn btn-success" type="submit" value="">Words: {{ len_summary }}</button>
+            </div>
+            {% endif %}
+            <!-- <p style="color:red;">ROUGE-1 (F1 Score): {{ rouge_score * 100 }}</p>  -->
+        </div>
+    </div>
+</body>
+</html>

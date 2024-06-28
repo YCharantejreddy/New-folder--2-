@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        // Function to copy text to clipboard
+        function copyText(elementId) {
+            var copyText = document.getElementById(elementId);
+            var textArea = document.createElement("textarea");
+            textArea.value = copyText.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("Copy");
+            textArea.remove();
+            alert("Text copied to clipboard!");
+        }
+    </script>
+</head>
+<body>
+    <a href="/" class="home-icon"><i class="fa fa-home"></i></a>
+    <div class="header">
+        <h1>TEXT CASES</h1>
+    </div>
+    <div class="info">
+        <h2>English</h2>
+        
+        <p id="englishParagraph">
+            <span class="copy-icon" onclick="copyText('englishParagraph')">
+                <i class="fa fa-copy"></i>
+            </span>
+            <br>
+            Artificial intelligence (AI) is rapidly transforming various industries, including healthcare, 
+            finance, and transportation. AI technologies such as machine learning and natural language processing 
+            have enabled computers to perform tasks that were once exclusive to humans, such as analyzing large 
+            datasets and understanding human language. This has led to advancements such as personalized medicine,
+            algorithmic trading, and self-driving cars. However, the increasing use of AI also raises ethical concerns, 
+            such as bias in algorithms and the impact on jobs. Despite these challenges, AI continues to revolutionize 
+            the way we live and work.
+           
+        </p>
+        <h2>Hindi</h2>
+        <p id="hindiParagraph">
+            <span class="copy-icon" onclick="copyText('hindiParagraph')">
+                <i class="fa fa-copy"></i>
+          
+            </span>
+            <br>
+            "कृत्रिम बुद्धिमत्ता (AI) विभिन्न उद्योगों, जैसे स्वास्थ्य सेवा, वित्त और परिवहन, को तेजी से परिवर्तित कर रही है। मशीन लर्निंग और प्राकृतिक भाषा प्रसंस्करण जैसी AI प्रौद्योगिकियों ने कंप्यूटर को मानवों के लिए केवल अभिनव निर्देशों का निर्वाह करने जैसे कार्यों को करने में सक्षम बनाया है, जैसे बड़े डेटासेट का विश्लेषण और मानव भाषा को समझना। इसने व्यक्तिगत चिकित्सा, एल्गोरिदमिक ट्रेडिंग और स्व-चलित कार जैसी प्रगतियों को उत्पन्न किया है। हालांकि, AI के बढ़ते उपयोग ने नैतिक चिंताएं भी उठाई हैं, जैसे एल्गोरिदम में पक्षपात और नौकरियों पर प्रभाव। इन चुनौतियों के बावजूद, AI हमारे जीवन और काम करने के तरीके को क्रांति ला रहा है।"
+        </p>
+        <h2>Kannada</h2>
+        <p id="kannadaParagraph">
+            <span class="copy-icon" onclick="copyText('kannadaParagraph')">
+                <i class="fa fa-copy"></i>
+            </span>
+            <br>
+            "ಕೃತ್ರಿಮ ಬುದ್ಧಿ (AI) ಆರೋಗ್ಯ, ಹಣಕಾಸು, ಮತ್ತು ಸಾರಿಗೆ ಮೊದಲಾದ ವಿವಿಧ ಉದ್ಯೋಗಗಳನ್ನು ಗಟ್ಟಿಮೀರಿ ಬದಲಾಯಿಸುತ್ತಿದೆ. ಯಂತ್ರ ಕಲಿಯುವ ಮತ್ತು ಪ್ರಾಕೃತಿಕ ಭಾಷಾ ಪ್ರಸಂಸ್ಕರಣ ಹೀಗೆಂದು ಎಂದಾದರೂ ಮಾನವರಿಗೆ ಮೀಸಲಾದ ಕಾರ್ಯಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಕಂಪ್ಯೂಟರ್‌ಗಳನ್ನು ಸಕ್ಷಮಗೊಳಿಸಿದೆ, ಉದಾಹರಣೆಗೆ ದೊಡ್ಡ ಡೇಟಾಬೇಸುಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುವುದು ಮತ್ತು ಮಾನವ ಭಾಷೆಯನ್ನು ಅರ್ಥಮಾಡುವುದು. ಇದು ವೈಯಕ್ತಿಕ ವೈದ್ಯಕೀಯ, ಆಲ್ಗೊರಿದಮಿಕ್ ಟ್ರೇಡಿಂಗ್, ಸ್ವಯಂ-ಚಾಲಿತ ಕಾರುಗಳು ಮುಂತಾದ ಅಭಿವೃದ್ಧಿಗಳನ್ನು ತಂದಿದೆ. ಆದರೆ, AI ಬಳಕೆಯ ಹೆಚ್ಚುವರಿಯಿಂದ ನೈತಿಕ ಸಮಸ್ಯೆಗಳೂ ಹೆಚ್ಚುತ್ತಿವೆ, ಉದಾಹರಣೆಗೆ ಯಾವುದೋ ಅಲ್ಗೊರಿದಮಿನಲ್ಲಿ ಅನ್ಯಾಯ ಮತ್ತು ಉದ್ಯೋಗಗಳ ಮೇಲಿನ ಪರಿಣಾಮ. ಈ ಕಡೆಗೆ ಈ ಆತಂಕಗಳಿಗೆ ಬಾವಜ್ಯವಾಗಿ, AI ನಮ್ಮ ಬದುಕು ಮತ್ತು ಕೆಲಸ ಮಾಡುವ ದಾರಿಯನ್ನು ಕ್ರಾಂತಿಕರಿಸುತ್ತಿದೆ."
+        </p>
+        <h2>Malayalam</h2>
+        <p>
+            "കൃത്രിമ ബുദ്ധി (AI) ആരോഗ്യവും, ഫിനാൻസും, പരിവഹനവും പോലുള്ള വിവിധ വര്‍ഗങ്ങളില്‍ വേഗം മാറുന്നു. യന്ത്രകള്‍ പഠനം വളരുന്നുവെന്ന്, സ്വാഭാവിക ഭാഷാ പ്രോസസ്സിങ്ങ് പോലുള്ള AI സാങ്കേതികങ്ങള്‍ മനുഷ്യര്‍ക്ക് മാത്രമായിരുന്ന കാര്യങ്ങളെ നിര്‍വഹിക്കാന്‍ കഴിയുന്നത്, പുതിയ ഡാറ്റാസെറ്റുകളെ വിശകലനം ചെയ്യാനും മനുഷ്യ ഭാഷ അറിയാനും. ഇത് വ്യക്തിഗത മെഡിസിന്‍, ആള്‍ഗൊരിത്തം ട്രേഡിംഗ്, സ്വയംചാലിത കാറുകളെ ഉണ്ടാക്കുക തുടങ്ങിയ മുന്‍വികാസങ്ങളില്‍ പ്രവര്‍ത്തിക്കുന്നു. എന്നാല്‍, AI ഉപയോഗം വരുന്നുവഴി നീതികരണങ്ങളും, അല്‍ഗൊരിതങ്ങളിലെ അനീതിയും, ജോലികളിലെ പ്രഭാവവുമെല്ലാം ഉയര്‍ന്നുകിട്ടുന്നു. ഇവ ചില പ്രതിസന്ധികളെന്ന പിടിയില്‍, AI നമ്മളും ജീവിക്കുന്നതും ജോലി ചെയ്യുന്നതും വിപ്ലവകരമാക്കുന്നു."
+        </p>
+        <h2>French</h2>
+        <p>
+            L'intelligence artificielle (IA) transforme rapidement diverses industries, notamment la santé, la finance et les transports. Des technologies telles que l'apprentissage automatique et le traitement automatique du langage naturel ont permis aux ordinateurs d'effectuer des tâches qui étaient autrefois réservées aux humains, telles que l'analyse de grands ensembles de données et la compréhension du langage humain. Cela a conduit à des avancées telles que la médecine personnalisée, le trading algorithmique et les voitures autonomes. Cependant, l'utilisation croissante de l'IA soulève également des préoccupations éthiques, telles que les biais dans les algorithmes et l'impact sur l'emploi. Malgré ces défis, l'IA continue de révolutionner notre mode de vie et de travail.
+        </p>
+        <h2>Chinese</h2>
+        <p>
+            "人工智能（AI）正在迅速改变各个行业，包括医疗保健、金融和交通等。机器学习和自然语言处理等技术使计算机能够执行曾经只有人类才能执行的任务，例如分析大数据集和理解人类语言。这导致了个性化医疗、算法交易和自动驾驶汽车等方面的进步。然而，AI 的日益普及也引发了诸如算法偏见和对就业的影响等伦理关切。尽管存在这些挑战，但AI 仍在改变我们的生活和工作方式。"
+        </p>
+        <h2>Korean</h2>
+        <p>
+            "인공 지능(AI)은 의료, 금융 및 교통 등 다양한 산업을 급속하게 변화시키고 있습니다. 기계 학습 및 자연어 처리와 같은 기술 덕분에 컴퓨터가 대용량 데이터 집합을 분석하고 인간 언어를 이해하는 등 인간만이 수행할 수 있었던 작업을 수행할 수 있게 되었습니다. 이는 맞춤형 의학, 알고리즘 거래 및 자율 주행 자동차 등의 발전으로 이어졌습니다. 그러나 AI의 증가하는 사용은 알고리즘의 편견과 고용에 미치는 영향과 같은 윤리적 우려도 제기합니다. 이러한 도전에도 불구하고 AI는 여전히 우리의 삶과 일하는 방식을 혁신하고 있습니다."
+        </p>
+        <h2>German</h2>
+        <p>
+            Künstliche Intelligenz (KI) transformiert rapide verschiedene Branchen, darunter Gesundheitswesen, Finanzwesen und Verkehr. Technologien wie maschinelles Lernen und natürliche Sprachverarbeitung haben es Computern ermöglicht, Aufgaben zu erledigen, die einst ausschließlich Menschen vorbehalten waren, wie die Analyse großer Datensätze und das Verständnis menschlicher Sprache. Dies hat zu Fortschritten wie personalisierter Medizin, algorithmischem Handel und selbstfahrenden Autos geführt. Die zunehmende Nutzung von KI wirft jedoch auch ethische Bedenken auf, wie beispielsweise Voreingenommenheit in Algorithmen und Auswirkungen auf Arbeitsplätze. Trotz dieser Herausforderungen revolutioniert KI weiterhin unsere Lebens- und Arbeitsweise.
+        </p>
+    </div>
+    
+</body>
+
+
+</html>
